@@ -1,0 +1,216 @@
+/** General classes **/
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  padding: 1em 0;
+}
+
+.header-font,
+.footer-font {
+  color: #FFF;
+}
+
+.blue-color,
+.page-font {
+  background-color: #21283A;
+  color: #21283A;
+}
+
+
+/** Nav classes **/
+.icon-bar {
+  background-color: #FFF;
+  max-width: 20em;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 32px;
+  width: 32px;    
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.icon-fb {
+  background-image: url('../img/fb-icon-header.png');
+}
+
+.icon-ig {
+  background-image: url('../img/ig-icon-header.png');
+}
+
+.icon-wa {
+  background-image: url('../img/wa-icon-header.png');
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #FFF; /* Adjust as needed */
+  color: #FFF;
+  opacity: 0.5;
+  transition: border-bottom 0.3s ease-in-out; /* Adjust as needed */
+}
+
+/** Jumbotron classes **/
+.slogan {
+  color: #FFF;
+  font-size: x-large;  
+}
+
+/** Categories classes **/
+#categories {
+  background-color: #FFF;
+}
+
+.category-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 75px;
+  margin: 0.5em 0;
+  width: 100px;
+}
+
+.parts-font {
+  color: #9C1021;
+
+  p {
+    margin-bottom: -0.25em;
+  }
+}
+
+.appliances-font {
+  color: #172982;
+}
+
+.av-font {
+  color: #29ABE2;
+}
+
+.mouse-font {
+  color: #B5C900;
+}
+
+.music-font {
+  color: #008A82;
+}
+
+.auto-font {
+  color: #D00050;
+}
+
+.hardware-font {
+  color: #41281B;
+}
+
+.lighting-font {
+  color: #FFCA05;
+}
+
+.electronics-font {
+  color: #911256;
+}
+
+.tools-font {
+  color: #005261;
+}
+
+.home-font {
+  color: #00882F;
+}
+
+.others-font {
+  color: #808080;
+}
+
+/** Location classes **/
+#location {
+  background-color: #F2F2F2;
+}
+
+#location-map {
+  border: 0;
+  max-height: 400px;
+  max-width: 800px;
+}
+
+/** About us classes **/
+#about {
+  background-color: #FFF;
+}
+
+/** Contact us classes **/
+#contact {
+  background-color: #F2F2F2;
+
+  p {
+    margin-bottom: 1.5em;
+  }
+}
+
+.contact-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;  
+  height: 58px;  
+  margin: 0.5em 0;
+  width: 64px;
+}
+
+.wa-text {
+  color: #009245;
+  font-weight: bold;
+}
+
+.phone-text {
+  color: #21283A;
+  font-weight: bold;
+}
+
+/** Footer classes **/
+.footer-font {
+  font-size: smaller;
+}
+
+.footer-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.footer-icon:hover {
+  opacity: 0.5;
+}
+
+.footer-icon-fb {
+  background-image: url('../img/fb-icon-footer.png');
+}
+
+.footer-icon-ig {
+  background-image: url('../img/ig-icon-footer.png');
+}
+
+.footer-icon-wa {
+  background-image: url('../img/wa-icon-footer.png');
+}
+
+.footer-logo {
+  max-width: 60%;
+}
+
+.footer-logo:hover {
+  opacity: 0.5;
+}
