@@ -35,8 +35,8 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
-  height: 32px;
-  width: 32px;    
+  height: 2rem;
+  width: 2rem;
 }
 
 .icon:hover {
@@ -56,16 +56,16 @@ h3 {
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid #FFF; /* Adjust as needed */
+  border-bottom: 2px solid #FFF;
   color: #FFF;
   opacity: 0.5;
-  transition: border-bottom 0.3s ease-in-out; /* Adjust as needed */
+  transition: border-bottom 0.3s ease-in-out;
 }
 
 /** Jumbotron classes **/
 .slogan {
   color: #FFF;
-  font-size: x-large;  
+  font-size: x-large;
 }
 
 /** Categories classes **/
@@ -77,9 +77,9 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
-  height: 75px;
+  height: 4.75rem;
   margin: 0.5em 0;
-  width: 100px;
+  width: 6.25rem;
 }
 
 .parts-font {
@@ -162,10 +162,10 @@ h3 {
 .contact-icon {
   background-repeat: no-repeat;
   background-size: contain;
-  display: inline-block;  
-  height: 58px;  
+  display: inline-block;
+  height: 4rem;
   margin: 0.5em 0;
-  width: 64px;
+  width: 4rem;
 }
 
 .wa-text {
@@ -180,15 +180,7 @@ h3 {
 
 /** Footer classes **/
 .footer-font {
-  font-size: smaller;
-}
-
-.footer-icon {
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  height: 24px;
-  width: 24px;
+  font-size: medium;
 }
 
 .footer-icon:hover {
@@ -208,7 +200,7 @@ h3 {
 }
 
 .footer-logo {
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .footer-logo:hover {
